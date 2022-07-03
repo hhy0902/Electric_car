@@ -1,0 +1,10 @@
+57a6FT91h23nyi00Iz5GqX41L85I53vNPL8cgG80
+
+전기차
+https://bigdata.kepco.co.kr/openapi/v1/EVcharge.do?metroCd=11&apiKey=57a6FT91h23nyi00Iz5GqX41L85I53vNPL8cgG80&returnType=json
+전기차-시군 입력
+https://bigdata.kepco.co.kr/openapi/v1/EVcharge.do?metroCd=11&cityCd=26&apiKey=57a6FT91h23nyi00Iz5GqX41L85I53vNPL8cgG80&returnType=json
+시도
+https://bigdata.kepco.co.kr/openapi/v1/commonCode.do?codeTy=metroCd&apiKey=57a6FT91h23nyi00Iz5GqX41L85I53vNPL8cgG80&returnType=json
+구군
+https://bigdata.kepco.co.kr/openapi/v1/commonCode.do?codeTy=cityCd&apiKey=57a6FT91h23nyi00Iz5GqX41L85I53vNPL8cgG80&returnType=json
