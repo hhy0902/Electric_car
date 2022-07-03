@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MapActivity">
 
+
+    <com.naver.maps.map.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

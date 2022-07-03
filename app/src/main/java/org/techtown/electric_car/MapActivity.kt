@@ -16,6 +16,8 @@ class MapActivity : AppCompatActivity() {
         Log.d("testt map lat / lon " ,"${lat} / ${lon}")
 
 
+
+
     }
 }
 
