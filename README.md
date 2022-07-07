@@ -20,8 +20,10 @@ retrofit2, naver map, recyclerView...
 
 # 동작 과정
 
-시도, 시군구 코드 입력 -> 한국전력 전기차충전소 설치현황 API를 이용해 해당하는 지역의 충전소 리스트 보여주기 -> item선택시 카카오 주소 검색 API를 사용해 위도,경도 정보 얻기 ->
+시도, 시군구 코드 입력 -> 한국전력 전기차충전소 설치현황 API를 이용해 해당하는 지역의 충전소 리스트 보여주기 -> 
 
-가져온 위도,경도 정보로 네이버 지도에 충전소 위치 보여주기 -> 길찾기 버튼 누르면 naver Directions(길찾기 API)를 사용해 pathLocation값 얻기 -> 
+item선택시 카카오 주소 검색 API를 사용해 위도,경도 정보 얻기 -> 가져온 위도,경도 정보로 네이버 지도에 충전소 위치 보여주기 -> 
 
-가져온 pathLocation과 네이버 지도의 PathOverlay기능을 사용해 경로 표시하기
+길찾기 버튼 누르면 naver Directions(길찾기 API)를 사용해 pathLocation값 얻기 -> 
+
+가져온 pathLocation & 네이버 지도의 PathOverlay기능을 사용해 경로 표시하기
