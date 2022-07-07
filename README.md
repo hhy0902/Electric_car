@@ -16,7 +16,7 @@ naver ncp Mobile Dynamic Map(지도 API) : https://navermaps.github.io/android-m
 
 # 사용된 기술 
 
-retrofit2, naver map, recyclerView...
+android studio, kotlin, retrofit2, naver map, recyclerView...
 
 # 동작 과정
 
@@ -27,3 +27,10 @@ item선택시 카카오 주소 검색 API를 사용해 위도,경도 정보 얻�
 길찾기 버튼 누르면 naver Directions(길찾기 API)를 사용해 pathLocation값 얻기 -> 
 
 가져온 pathLocation & 네이버 지도의 PathOverlay기능을 사용해 경로 표시하기
+
+# Result
+
+![KakaoTalk_20220708_012022862_05](https://user-images.githubusercontent.com/86578252/177823126-8f80ca2a-74dd-40fe-9a76-abc002731f21.jpg)
+![KakaoTalk_20220708_012022862_04](https://user-images.githubusercontent.com/86578252/177823183-bace633e-86a2-4480-b45a-1ad05a18a3bc.jpg)
+![KakaoTalk_20220708_012022862_03](https://user-images.githubusercontent.com/86578252/177823364-d4b36b08-4fd5-4d79-b7ea-1e0fec902542.jpg)
+
