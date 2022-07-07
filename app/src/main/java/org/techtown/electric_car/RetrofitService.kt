@@ -3,6 +3,7 @@ package org.techtown.electric_car
 import org.techtown.electric_car.data.Car
 import org.techtown.electric_car.geodata.Location
 import org.techtown.electric_car.kakaogeo.LatLon
+import org.techtown.electric_car.searchLoad.LoadMap
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Header
@@ -16,6 +17,22 @@ interface RetrofitService {
         @Query("metroCd") metroCd : String,
         @Query("cityCd") cityCd : String
     ) : Call<Car>
+
+    @GET("map-direction-15/v1/driving?")
+    fun getLoadMap(
+        @Header("X-NCP-APIGW-API-KEY-ID") id : String,
+        @Header("X-NCP-APIGW-API-KEY") secret : String,
+        @Query("start") start : String,
+        @Query("goal") goal : String
+    ) : Call<LoadMap>
+
+    @GET("map-direction/v1/driving?")
+    fun getLoadMap2(
+        @Header("X-NCP-APIGW-API-KEY-ID") id : String,
+        @Header("X-NCP-APIGW-API-KEY") secret : String,
+        @Query("start") start : String,
+        @Query("goal") goal : String
+    ) : Call<LoadMap>
 
     @GET("map-geocode/v2/geocode?")
     fun getLocation(
