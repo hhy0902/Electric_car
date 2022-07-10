@@ -2,6 +2,8 @@
 
 한국전력 전기차충전소 설치현황 API를 활용해 만든 전기차 충전소 찾기 앱 입니다.
 
+play store : https://play.google.com/store/apps/details?id=org.techtown.electric_car
+
 # 사용 open api 
 
 한국전력 전기차충전소 설치현황 API : https://bigdata.kepco.co.kr/cmsmain.do?scode=S01&pcode=000493&pstate=ev&redirect=Y
