@@ -12,6 +12,10 @@ play store : https://play.google.com/store/apps/details?id=org.techtown.electric
 
 카카오 developer 주소 검색 API : https://developers.kakao.com/docs/latest/ko/local/dev-guide#address-coord
 
+naver ncp Maps Directions(길찾기 API) : https://api.ncloud-docs.com/docs/ai-naver-mapsdirections
+
+naver ncp Mobile Dynamic Map(지도 API) : https://navermaps.github.io/android-map-sdk/guide-ko/0.html
+
 # 사용된 기술 
 
 android studio, kotlin, retrofit2, naver map, recyclerView...
